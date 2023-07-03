@@ -4,7 +4,7 @@ package com.learnkotlin.basics
  * Below main function doesn't have arguments like java's main method.
  */
 fun main() {
-    println("First arg : ${printArgs()} , Second arg : ${printArgs()}")
+    println("First arg : ${printArgument()} , Second arg : ${printArgument()}")
 
     /** output:
      * Gonna print
@@ -13,7 +13,7 @@ fun main() {
      */
 }
 
-fun printArgs(): String {
+fun printArgument(): String {
     println("Gonna print")
     return "Argument"
 }
