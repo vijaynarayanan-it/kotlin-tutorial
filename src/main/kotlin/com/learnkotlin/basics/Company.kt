@@ -48,27 +48,27 @@ fun main() {
      * create an object with no arguments.
      */
     val localManager = Manager()
-    println("Local Manager Id is : " + employee.id) // output -> Local Manager Id is :  0 (default value)
-    println("Local Manager Name is : " + employee.name) // output -> Local Manager Name is : Unknown (default value)
+    println("Local Manager Id is : " + localManager.id) // output -> Local Manager Id is :  0 (default value)
+    println("Local Manager Name is : " + localManager.name) // output -> Local Manager Name is : Unknown (default value)
 
     /**
      * Passing id argument alone to create Manager object.
      */
     val frontDeskManager = Manager(1)
-    println("FrontDesk Manager Id is : " + employee.id) // output -> FrontDesk Manager Id is : 1
-    println("FrontDesk Manager Name is : " + employee.name) // output -> FrontDesk Manager Name is : Unknown (default value)
+    println("FrontDesk Manager Id is : " + frontDeskManager.id) // output -> FrontDesk Manager Id is : 1
+    println("FrontDesk Manager Name is : " + frontDeskManager.name) // output -> FrontDesk Manager Name is : Unknown (default value)
 
     /**
      * Passing name argument alone to create Manager object.
      */
     val middleDeskManager = Manager(name = "Vijay")
-    println("MiddleDesk Manager Id is : " + employee.id) // output -> MiddleDesk Manager Id is : 0 (default value)
-    println("MiddleDesk Manager Name is : " + employee.name) // output -> MiddleDesk Manager Name is : Vijay
+    println("MiddleDesk Manager Id is : " + middleDeskManager.id) // output -> MiddleDesk Manager Id is : 0 (default value)
+    println("MiddleDesk Manager Name is : " + middleDeskManager.name) // output -> MiddleDesk Manager Name is : Vijay
 
     /**
      * Passing id and name argument to create Manager object.
      */
     val backDeskManager = Manager(2, "Vijay")
-    println("BackDesk Manager Id is : " + employee.id) // output -> BackDesk Manager Id is : 2
-    println("BackDesk Manager Name is : " + employee.name) // output -> BackDesk Manager Name is : Vijay
+    println("BackDesk Manager Id is : " + backDeskManager.id) // output -> BackDesk Manager Id is : 2
+    println("BackDesk Manager Name is : " + backDeskManager.name) // output -> BackDesk Manager Name is : Vijay
 }
