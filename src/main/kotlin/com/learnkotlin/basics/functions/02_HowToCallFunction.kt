@@ -1,4 +1,4 @@
-package com.learnkotlin.basics
+package com.learnkotlin.basics.functions
 
 /**
  * Below main function doesn't have arguments like java's main method.

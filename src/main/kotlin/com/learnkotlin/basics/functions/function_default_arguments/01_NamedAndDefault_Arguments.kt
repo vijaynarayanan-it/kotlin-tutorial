@@ -1,4 +1,4 @@
-package com.learnkotlin.function_arguments
+package com.learnkotlin.basics.functions.function_default_arguments
 
 /**
  * below function explains how named and default arguments applied in Kotlin.

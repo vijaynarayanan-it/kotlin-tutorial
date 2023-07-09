@@ -7,8 +7,11 @@
  * in the first line of the class and before the package declaration.
  */
 @file:JvmName("Validator")
-package com.learnkotlin.functions
+package com.learnkotlin.basics.functions
 
+/**
+ * @see com.learnkotlin.function_return_type.CallingKotlinTopLevelFunction.main
+ */
 fun isValidString(data: String) : Boolean {
     return data.isNotEmpty()
 }

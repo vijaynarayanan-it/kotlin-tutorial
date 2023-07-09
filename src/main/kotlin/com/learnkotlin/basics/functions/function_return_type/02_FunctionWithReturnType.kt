@@ -1,4 +1,4 @@
-package com.learnkotlin.functions
+package com.learnkotlin.basics.functions.function_return_type
 
 fun main() {
     val responseCode = getResponseCode("Ok")

@@ -1,4 +1,4 @@
-package com.learnkotlin.functions;
+package com.learnkotlin.basics.functions;
 
 public class CallingKotlinTopLevelFunction {
     public static void main(String[] args) {

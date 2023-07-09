@@ -1,4 +1,4 @@
-package com.learnkotlin.variables
+package com.learnkotlin.basics.variables
 
 /**
  * val keyword comes from value variable.

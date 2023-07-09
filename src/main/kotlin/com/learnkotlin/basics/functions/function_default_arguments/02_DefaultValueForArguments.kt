@@ -1,4 +1,5 @@
-package com.learnkotlin.function_arguments
+@file:JvmName("PrintService")
+package com.learnkotlin.basics.functions.function_default_arguments
 
 /**
  * below function has two arguments called recurseCount and message.
@@ -13,7 +14,13 @@ package com.learnkotlin.function_arguments
  *
  * But In Kotlin, we can easily eliminate creation of multiple overload functions
  * by using default argument values.
+ *
+ * If you want to use this kotlin function with default value feature in Java,
+ * then it should be annotated with @JvmOverloads annotation.
+ * @see com.learnkotlin.basics.functions.function_default_arguments.ClassForCallingMethodWithDefaultValues.main
+ *
  */
+@JvmOverloads
 fun print(recurseCount: Int = 1, message: String = "#") {
     repeat(recurseCount) {
         print(message);

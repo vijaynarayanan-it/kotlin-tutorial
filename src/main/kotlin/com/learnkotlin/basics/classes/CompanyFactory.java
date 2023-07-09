@@ -1,4 +1,4 @@
-package com.learnkotlin.basics;
+package com.learnkotlin.basics.classes;
 
 public class CompanyFactory {
     public static void main(String[] args) {

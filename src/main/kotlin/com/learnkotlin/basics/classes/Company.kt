@@ -1,5 +1,4 @@
-@file:JvmName("Company")
-package com.learnkotlin.basics
+package com.learnkotlin.basics.classes
 
 /**
  * Below class syntax eliminates Java's boilerplate code like:

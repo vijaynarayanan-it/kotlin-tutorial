@@ -1,4 +1,4 @@
-package com.learnkotlin.basics
+package com.learnkotlin.basics.functions
 
 /**
  * 1. In kotlin main function argument parameter is optional.
