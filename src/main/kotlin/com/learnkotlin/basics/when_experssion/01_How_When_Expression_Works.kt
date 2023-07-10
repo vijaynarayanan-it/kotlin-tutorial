@@ -1,4 +1,4 @@
-package com.learnkotlin.basics.if_experssion
+package com.learnkotlin.basics.when_experssion
 
 fun main() {
     val fontSize = getDefaultFontSize(Font.ARIAL)
