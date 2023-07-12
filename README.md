@@ -1,7 +1,7 @@
 
 # Learn Kotlin
 
-![alt text](https://github.com/vijaynarayanan-it/kotlin-tutorial/blob/main/Kotlin-logo.png)
+![alt text](https://github.com/vijaynarayanan-it/kotlin-tutorial/blob/main/images/Kotlin-logo.png)
 
 It's really easy to start using Kotlin, especially if you're a Java developer. You can use all the existing Java frameworks and libraries from Kotlin. You can even mix Kotlin and Java code in one project. Kotlin is a JVM language, so you can easily call Java code from Kotlin, but that also works in the other direction.
 
@@ -19,6 +19,9 @@ You can find below topics by clicking on the links
   * [How to call functions in Kotlin](https://github.com/vijaynarayanan-it/kotlin-tutorial/blob/main/src/main/kotlin/com/learnkotlin/basics/02_HowToCallFunction.kt)
 
 
+# ASCI Character Chart
+
+![alt text](https://github.com/vijaynarayanan-it/kotlin-tutorial/blob/main/images/ASCII_Conversion_Chart.jpg)
 
 
 
